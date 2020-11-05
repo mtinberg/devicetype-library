@@ -11,9 +11,21 @@ console-ports:
   - name: con1
     type: rj-45
 power-ports:
-  - name: PSU0
+  - name: PSU0.0
     type: iec-60320-c20
-    maximum_draw: 12000
-  - name: PSU1
+    maximum_draw: 3000
+  - name: PSU0.1
     type: iec-60320-c20
-    maximum_draw: 12000
+    maximum_draw: 3000
+  - name: PSU1.0
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU1.1
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU2.0
+    type: iec-60320-c20
+    maximum_draw: 3000
+  - name: PSU2.1
+    type: iec-60320-c20
+    maximum_draw: 3000
