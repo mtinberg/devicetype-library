@@ -7,13 +7,13 @@ is_full_depth: true
 interfaces:
   - name: Ethernet0
     type: 100base-tx
-  - name: Serial0
-    type: other
 console-ports:
   - name: con0
     type: rj-45
   - name: aux
     type: rj-45
+  - name: Serial0
+    type: other
   - name: line1
     type: rj-45
   - name: line2
