@@ -8,5 +8,3 @@ subdevice_role: child
 interfaces:
 - name: Ethernet
   type: 100base-tx
-- name: bogustest
-  type: 100base-tx
