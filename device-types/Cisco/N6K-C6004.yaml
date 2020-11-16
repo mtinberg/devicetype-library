@@ -2,7 +2,7 @@ manufacturer: Cisco
 model: Nexus 6004
 slug: n6k-6004
 part_number: N6K-C6004
-u_height: 1
+u_height: 4
 is_full_depth: false
 interfaces:
   - name: mgmt0
