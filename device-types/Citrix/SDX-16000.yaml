@@ -1,0 +1,49 @@
+---
+manufacturer: Citrix
+model: SDX-16000
+slug: citrix-sdx-16000
+u_height: 2
+is_full_depth: true
+comments: "[DataSheet SDX-16000](https://docs.netscaler.com/en-us/netscaler-hardware-platforms/sdx/hardware-platforms/sdx-16000.html)"
+console-ports:
+  - name: Console
+    type: de-9
+power-ports:
+  - name: PS 1
+    type: iec-60320-c14
+    maximum_draw: 850
+  - name: PS 2
+    type: iec-60320-c14
+    maximum_draw: 850
+interfaces:
+  - name: 0/1
+    type: 1000base-t
+  - name: 1/1
+    type: 1000base-t
+  - name: 25/1
+    type: 25gbase-x-sfp28
+  - name: 25/2
+    type: 25gbase-x-sfp28
+  - name: 25/3
+    type: 25gbase-x-sfp28
+  - name: 25/4
+    type: 25gbase-x-sfp28
+  - name: 25/5
+    type: 25gbase-x-sfp28
+  - name: 25/6
+    type: 25gbase-x-sfp28
+  - name: 25/7
+    type: 25gbase-x-sfp28
+  - name: 25/8
+    type: 25gbase-x-sfp28
+  - name: 100/1
+    type: 100gbase-x-qsfp28
+  - name: 100/2
+    type: 100gbase-x-qsfp28
+  - name: 100/3
+    type: 100gbase-x-qsfp28
+  - name: 100/4
+    type: 100gbase-x-qsfp28
+  - name: LOM
+    type: 1000base-t
+    mgmt_only: true
