@@ -1,0 +1,46 @@
+---
+manufacturer: APC
+model: Smart-UPS 1400 RM XL
+slug: apc-su1400rmxlnet
+part_number: SU1400RMXLNET
+comments: "APC Smart-UPS 1400 RM XL 5U 120V (8) 5-15 RECEPTACLES\r\n\r\n 1 RBC11\r\n\r\n[SU1400RMXLNET_DATASHEET](https://download.schneider-electric.com/files?p_File_Name=SU1400RMXLNET_DATASHEET_US_en-US.pdf&p_Doc_Ref=SU1400RMXLNET_DATASHEET&p_enDocType=Product+Data+Sheet)"
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Source
+    type: nema-5-20p
+  - name: XLBP Source
+    descrtiption: External SU48RMXLBP
+    type: dc-terminal
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 2
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 3
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 4
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 5
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 6
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 7
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 8
+    type: nema-5-15r
+    power_port: Source
+
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

@@ -1,0 +1,37 @@
+---
+manufacturer: APC
+model: Smart-UPS 2200 RM XL
+slug: apc-su2200rmxltnet
+part_number: SU2200RMXLTNET
+comments: "APC Smart-UPS XL 2200VA RM 5U 208V\r\n1x RBC11\r\n[SU2200RMXLTNET_DATASHEET](https://download.schneider-electric.com/files?p_File_Name=SU2200RMXLTNET_DATASHEET_US_en-US.pdf&p_Doc_Ref=SU2200RMXLTNET_DATASHEET&p_enDocType=Product+Data+Sheet)"
+u_height: 5
+is_full_depth: true
+console-ports:
+  - name: Serial
+    type: rj-45
+power-ports:
+  - name: Source
+    type: nema-l6-20p
+  - name: XLBP Source
+    description: External SU48RMXLBP
+    type: dc-terminal
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 2
+    type: nema-5-15r
+    power_port: Source
+  - name: Outlet 3
+    type: nema-l6-20r
+    power_port: Source
+  - name: Outlet 4
+    type: nema-l6-30r
+    power_port: Source
+  - name: Outlet 5
+    type: nema-l6-30r
+    power_port: Source
+
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

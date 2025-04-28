@@ -1,0 +1,11 @@
+---
+manufacturer: APC
+model: Smart-UPS External Battery SU48RMXLBP
+slug: apc-su48rmxlbp
+part_number: SU48RMXLBP
+comments: APC Smart-UPS Battery Pack For SU1400/2200 48V, 1632VAh, rackmount, 4U\r\n[SU48RMXLBP_DATASHEET](https://download.schneider-electric.com/files?p_File_Name=SU48RMXLBP_DATASHEET_US_en-US.pdf&p_Doc_Ref=SU48RMXLBP_DATASHEET&p_enDocType=Product+Data+Sheet)
+u_height: 4
+is_full_depth: true
+power-ports:
+  - name: UPS Input
+    type: dc-terminal
