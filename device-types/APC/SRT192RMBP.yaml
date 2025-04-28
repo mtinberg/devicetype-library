@@ -1,0 +1,11 @@
+---
+manufacturer: APC
+model: Smart-UPS External Battery SRT192RMBP
+slug: apc-srt192rmbp
+part_number: SRT192RMBP
+comments: APC Smart-UPS XLBP External Battery Pack \r\n4 APCRBC140 battery modules
+u_height: 2
+is_full_depth: true
+power-ports:
+  - name: UPS Input
+    type: other

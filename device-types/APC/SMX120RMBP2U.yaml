@@ -1,0 +1,11 @@
+---
+manufacturer: APC
+model: Smart-UPS External Battery SMX120RMBP2U
+slug: apc-smx120rmbp2u
+part_number: SMX120RMBP2U
+comments: APC Smart-UPS X External Battery Pack, Rack/Tower 2U, 120Vdc, W/rail kit
+u_height: 2
+is_full_depth: true
+power-ports:
+  - name: UPS Input
+    type: other

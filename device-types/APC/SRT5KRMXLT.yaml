@@ -13,6 +13,7 @@ power-ports:
   - name: Source
     type: nema-l6-30p
   - name: XLBP Source
+    descrtiption: External SRT192RMBP
     type: dc-terminal
 power-outlets:
   - name: Group 1 Outlet 1
@@ -30,11 +31,3 @@ power-outlets:
 module-bays:
   - name: SmartSlot
     position: SmartSlot
-interfaces:
-  - name: Ethernet
-    type: 100base-tx
-    mgmt_only: true
-    label: NMC
-  - name: Universal I/O 1
-    type: other
-    label: RJ-45

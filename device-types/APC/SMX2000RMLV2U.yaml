@@ -1,0 +1,42 @@
+---
+manufacturer: APC
+model: Smart-UPS SMX2000RMLV2U
+slug: apc-smx2000rmlv2u
+part_number: SMX2000RMLV2U
+u_height: 2
+is_full_depth: false
+comments:
+  "APC Smart-UPS X, Line Interactive, 2000VA, Rack/tower convertible 2U, 100V-127V, 3x 5-15R+3x 5-20R+1x L5-20R NEMA, SmartSlot, Extended runtime\r\n\r\n  | RBC Information\
+  \ |           |\r\n  | --------------- | --------- |\r\n  | RBC Replacement | APCRBC117\
+  \ |\r\n  | RBC Quantity    | 1        |\r\n\r\n[Smart-UPS Brochure (SMT/SMX)](https://download.schneider-electric.com/files?p_Doc_Ref=SPD_VYOG-8WLK6U_EN&p_enDocType=Catalog)\r\
+  \n\r\n[SMX2000RMLV2U_DATASHEET_US_en-US.pdf](https://download.schneider-electric.com/files?p_File_Name=SMX2000RMLV2U_DATASHEET_US_en-US.pdf&p_Doc_Ref=SMX1500RM2U_DATASHEET&p_enDocType=Product+Data+Sheet)"
+
+console-ports:
+  - name: Serial
+    type: rj-45
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: nema-5-20p
+power-outlets:
+  - name: Outlet 1
+    type: nema-5-15r
+  - name: Outlet 2
+    type: nema-5-15r
+  - name: Outlet 3
+    type: nema-5-15r
+  - name: Outlet 4
+    type: nema-5-20r
+  - name: Outlet 5
+    type: nema-5-20r
+  - name: Outlet 6
+    type: nema-5-20r
+  - name: Outlet 7
+    type: nema-l5-20r
+  - name: External
+    type: other
+    description: External Battery Pack SMX120RMBP2U
+module-bays:
+  - name: SmartSlot
+    position: SmartSlot

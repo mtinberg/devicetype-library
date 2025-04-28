@@ -1,16 +1,16 @@
 ---
 manufacturer: APC
-model: Smart-UPS SMT2200RM2UNC
-slug: apc-smt2200rm2unc
-part_number: SMT2200RM2UNC
+model: Smart-UPS SMT3000RM2U
+slug: apc-smt3000rm2u
+part_number: SMT3000RM2U
 u_height: 2
 is_full_depth: true
 airflow: front-to-rear
 front_image: true
 rear_image: true
-weight: 93.28
+weight: 97.62
 weight_unit: lb
-comments: APC Smart-UPS, Line Interactive, 2200VA, Rackmount 2U, 120V, 6x NEMA 5-15R+2x NEMA 5-20R outlets, Network Card, AVR, LCD
+comments: APC Smart-UPS, Line Interactive, 3kVA, Rackmount 2U, 120V, 6x NEMA 5-15R+2x NEMA 5-20R outlets, SmartSlot, AVR, LCD
 console-ports:
   - name: Serial
     type: rj-45
@@ -18,7 +18,7 @@ console-ports:
     type: usb-b
 power-ports:
   - name: Source
-    type: nema-5-20p
+    type: nema-l5-30p
 power-outlets:
   - name: Outlet 1
     type: nema-5-20r
